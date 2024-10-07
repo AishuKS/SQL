@@ -16,9 +16,9 @@
 - **Less than or equal to**: `<=`
 
 3. Logical Operators
-AND: Combines multiple conditions; returns true if all conditions are true.
-OR: Returns true if at least one of the conditions is true.
-NOT: Reverses the result of a condition.
+- **AND**: Combines multiple conditions; returns true if all conditions are true.
+- **OR**: Returns true if at least one of the conditions is true.
+- **NOT**: Reverses the result of a condition.
 
 4. Special Operators
 - **BETWEEN**: Filters results within a specified range (inclusive).
