@@ -38,7 +38,7 @@
 | 5             | Eva           | 42            | HR                  | 80000     | 2018-05-30   |
 
 ### 1. Arithmetic Operators
-Addition (+): Used to add numbers together.
+**Addition** (+): Used to add numbers together.
 ```sql
 SELECT name, salary + 5000 AS increased_salary FROM employees;
 ```
@@ -50,7 +50,7 @@ SELECT name, salary + 5000 AS increased_salary FROM employees;
 |David|	50000|
 |Eva|	85000|
 
-Subtraction (-): Decreases each employee's salary by $10000.
+**Subtraction** (-): Decreases each employee's salary by $10000.
 ```sql
 SELECT name, salary - 10000 AS reduced_salary FROM employees;
 ```
@@ -62,7 +62,7 @@ SELECT name, salary - 10000 AS reduced_salary FROM employees;
 |David|	35000|
 |Eva|	70000|
 
-Multiplication (*): Applies a 10% bonus to each employee's salary.
+**Multiplication** (*): Applies a 10% bonus to each employee's salary.
 ```sql
 Multiplication (*): Applies a 10% bonus to each employee's salary
 ```
@@ -74,7 +74,7 @@ Multiplication (*): Applies a 10% bonus to each employee's salary
 |David|	49500|
 |Eva|	88000|
 
-Division (/): Shows the employee's salary in thousands.
+**Division** (/): Shows the employee's salary in thousands.
 ```sql
 SELECT name, salary / 1000 AS salary_in_thousands FROM employees;
 ```
@@ -86,7 +86,7 @@ SELECT name, salary / 1000 AS salary_in_thousands FROM employees;
 |David|	45|
 |Eva|	80|
 
-Modulus (%): Shows the remainder when salary is divided by 10000
+**Modulus** (%): Shows the remainder when salary is divided by 10000
 ```sql
 SELECT name, salary % 10000 AS remainder FROM employees;
 ```
@@ -99,7 +99,7 @@ SELECT name, salary % 10000 AS remainder FROM employees;
 |Eva|	0|
 
 ### 2. Comparison Operators
-Equal (=): Selects employees in the IT department
+**Equal** (=): Selects employees in the IT department
 ```sql
 SELECT * FROM employees WHERE department = 'IT';
 ```
@@ -107,7 +107,7 @@ SELECT * FROM employees WHERE department = 'IT';
 |2|	Bob|	25|	IT|	55000|	2021-03-22|
 |3	|Charlie	|35|	IT	|70000|	2019-07-10|
 
-Not Equal (!=): Selects employees whose age is not 30.
+**Not Equal** (!=): Selects employees whose age is not 30.
 ```sql
 SELECT * FROM employees WHERE age != 30;
 ```
@@ -117,7 +117,7 @@ SELECT * FROM employees WHERE age != 30;
 |4	|David|	28	|Finance	|45000	|2022-02-01|
 |5|	Eva	|42	|HR	|80000	|2018-05-30|
 
-Greater Than (>): Selects employees earning more than $60,000.
+**Greater Than** (>): Selects employees earning more than $60,000.
 ```sql
 SELECT * FROM employees WHERE salary > 60000;
 ```
@@ -125,7 +125,7 @@ SELECT * FROM employees WHERE salary > 60000;
 |3	|Charlie|	35	|IT|	70000|	2019-07-10|
 |5	|Eva|	42|	HR|	80000	|2018-05-30|
 
-Less Than (<): Selects employees younger than 30.
+**Less Than** (<): Selects employees younger than 30.
 ```sql
 SELECT * FROM employees WHERE age < 30;
 ```
@@ -134,7 +134,7 @@ SELECT * FROM employees WHERE age < 30;
 |2|	Bob	|25|	IT	|55000|	2021-03-22|
 |4|	David|	28|	Finance|	45000	|2022-02-01|
 
-Greater Than or Equal To (>=): Selects employees earning $60,000 or more.
+**Greater Than or Equal To** (>=): Selects employees earning $60,000 or more.
 ```sql
 SELECT * FROM employees WHERE salary >= 60000;
 ```
@@ -143,7 +143,7 @@ SELECT * FROM employees WHERE salary >= 60000;
 |3	|Charlie|	35	|IT|	70000|	2019-07-10|
 |5	|Eva|	42|	HR|	80000	|2018-05-30|
 
-Less Than or Equal To (<=): Selects employees aged 28 or younger.
+**Less Than or Equal To** (<=): Selects employees aged 28 or younger.
 ```sql
 SELECT * FROM employees WHERE age <= 28;
 ```
