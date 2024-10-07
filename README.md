@@ -4,15 +4,15 @@ This repository contains comprehensive documentation on various SQL command grou
 
 ## Table of Contents
 
-1. [SQL Command Groups](SQL Command Groups.docx)
-2. [Data Definition Language (DDL)](Data Definition Language.md)
-3. [Data Manipulation Language (DML)](Data Manipulation Language.md)
-4. [Data Query Language (DQL)](Data Query Language.md)
-5. [Data Control Language (DCL)](Data Control Language.md)
-6. [Transaction Control Language (TCL)](Transaction Control Language.md)
-7. [Operators](Operators.md)
-8. [SQL Clauses](SQL Clauses.md)
-9. [SQL Functions](SQL Functions.md)
+1. SQL Command Groups
+2. Data Definition Language (DDL)
+3. Data Manipulation Language (DML)
+4. Data Query Language (DQL)
+5. Data Control Language (DCL)
+6. Transaction Control Language (TCL)
+7. Operators
+8. SQL Clauses
+9. SQL Functions
 
 ## Overview of SQL Command Groups
 
