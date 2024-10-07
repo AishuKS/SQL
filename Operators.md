@@ -90,28 +90,32 @@ SELECT name, salary / 1000 AS salary_in_thousands FROM employees;
 ```sql
 SELECT name, salary % 10000 AS remainder FROM employees;
 ```
-| **name** | **	remainder** |
-|----------------|------------|
-|Alice|	0|
-|Bob|	5000|
-|Charlie|	0|
-|David|	5000|
-|Eva|	0|
+| **Name**   | **Remainder** |
+|------------|---------------|
+| Alice      | 0             |
+| Bob        | 5000          |
+| Charlie    | 0             |
+| David      | 5000          |
+| Eva        | 0             |
+
 
 ### 2. Comparison Operators
 **Equal** (=): Selects employees in the IT department
 ```sql
 SELECT * FROM employees WHERE department = 'IT';
 ```
-| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
-|2|	Bob|	25|	IT|	55000|	2021-03-22|
-|3	|Charlie	|35|	IT	|70000|	2019-07-10|
+| **ID** | **Name**  | **Age** | **Department** | **Salary** | **Hire Date** |
+|--------|-----------|---------|----------------|------------|---------------|
+| 2      | Bob       | 25      | IT             | 55,000     | 2021-03-22    |
+| 3      | Charlie   | 35      | IT             | 70,000     | 2019-07-10    |
+
 
 **Not Equal** (!=): Selects employees whose age is not 30.
 ```sql
 SELECT * FROM employees WHERE age != 30;
 ```
-| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+| **ID** | **Name**  | **Age** | **Department** | **Salary** | **Hire Date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |2	|Bob|	25|	IT|	55000|	2021-03-22|
 |3	|Charlie|	35|	IT	|70000|	2019-07-10|
 |4	|David|	28	|Finance	|45000	|2022-02-01|
@@ -122,6 +126,7 @@ SELECT * FROM employees WHERE age != 30;
 SELECT * FROM employees WHERE salary > 60000;
 ```
 | **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |3	|Charlie|	35	|IT|	70000|	2019-07-10|
 |5	|Eva|	42|	HR|	80000	|2018-05-30|
 
@@ -131,6 +136,7 @@ SELECT * FROM employees WHERE age < 30;
 ```
 
 | **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |2|	Bob	|25|	IT	|55000|	2021-03-22|
 |4|	David|	28|	Finance|	45000	|2022-02-01|
 
@@ -139,6 +145,7 @@ SELECT * FROM employees WHERE age < 30;
 SELECT * FROM employees WHERE salary >= 60000;
 ```
 | **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |1	|Alice	|30|	HR	|60000	|2020-01-15|
 |3	|Charlie|	35	|IT|	70000|	2019-07-10|
 |5	|Eva|	42|	HR|	80000	|2018-05-30|
@@ -149,6 +156,7 @@ SELECT * FROM employees WHERE age <= 28;
 ```
 
 | **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |2|	Bob	|25|	IT	|55000|	2021-03-22|
 |4|	David|	28|	Finance|	45000	|2022-02-01|
 
@@ -159,6 +167,7 @@ SELECT * FROM employees WHERE department = 'IT' AND age > 30;
 ```
 
 | **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |3	|Charlie|	35	|IT|	70000|	2019-07-10|
 
 OR: Selects employees in HR or those earning less than $50,000.
@@ -167,6 +176,7 @@ SELECT * FROM employees WHERE department = 'HR' OR salary < 50000;
 ```
 
 | **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |1	|Alice	|30|	HR	|60000	|2020-01-15|
 |4|	David|	28|	Finance|	45000	|2022-02-01|
 |5	|Eva|	42|	HR|	80000	|2018-05-30|
@@ -177,6 +187,7 @@ SELECT * FROM employees WHERE NOT department = 'Finance';
 ```
 
 | **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
 |1	|Alice	|30|	HR	|60000	|2020-01-15|
 |2|	Bob	|25|	IT	|55000|	2021-03-22|
 |3	|Charlie|	35	|IT|	70000|	2019-07-10|
