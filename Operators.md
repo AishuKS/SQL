@@ -7,7 +7,7 @@
 / (Division)
 % (Modulus)
 
-2. Comparison Operators
+2. Comparison Operators 
 = (Equal)
 != or <> (Not equal)
 > (Greater than)
@@ -35,3 +35,17 @@ NOT: Reverses the result of a condition.
 | 3             | Charlie           | 35            | IT                  | 70000     | 2019-07-10   |
 | 4             | David           | 28            | Finance                  | 45000     | 2022-02-01   |
 | 5             | Eva           | 42            | HR                  | 80000     | 2018-05-30   |
+
+### 1. Arithmetic Operators
+Addition (+): Used to add numbers together.
+```sql
+SELECT name, salary + 5000 AS increased_salary FROM employees;
+```
+|**name**|**increased_salary**|
+|----------------|------------|
+|Alice|	65000|
+|Bob|	60000|
+|Charlie|	75000|
+|David|	50000|
+|Eva|	85000|
+
