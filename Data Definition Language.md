@@ -37,6 +37,7 @@ CREATE TABLE projects (
     employee_id INT,
     FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
 );
+```
 
 ### 2. ALTER
 The `ALTER` statement is used to modify an existing database object, such as a table.
@@ -46,6 +47,7 @@ The `ALTER` statement is used to modify an existing database object, such as a t
 ALTER TABLE employees ADD COLUMN salary DECIMAL(10, 2);
 
 ALTER TABLE departments DROP COLUMN department_name;
+```
 
 ### 3. DROP
 The `DROP` statement is used to completely remove a table from the database.
@@ -53,6 +55,7 @@ The `DROP` statement is used to completely remove a table from the database.
 #### Example:
 ```sql
 DROP TABLE projects;
+```
 
 ### 4. TRUNCATE
 The `TRUNCATE` statement is used to remove all rows from a table, but the table structure remains.
@@ -60,6 +63,7 @@ The `TRUNCATE` statement is used to remove all rows from a table, but the table 
 #### Example:
 ```sql
 TRUNCATE TABLE employees;
+```
 
 ### 5. RENAME
 The 'RENAME' statement is used to rename an object in the database.
@@ -67,3 +71,4 @@ The 'RENAME' statement is used to rename an object in the database.
 #### Example:
 ```sql
 RENAME TABLE departments TO dept;
+```
