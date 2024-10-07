@@ -193,3 +193,147 @@ SELECT * FROM employees WHERE NOT department = 'Finance';
 |3	|Charlie|	35	|IT|	70000|	2019-07-10|
 |5	|Eva|	42|	HR|	80000	|2018-05-30|
 
+
+### 4. Special Operator
+BETWEEN: Selects employees whose age is between 25 and 35.
+```sql
+SELECT * FROM employees WHERE age BETWEEN 25 AND 35;
+```
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+|2|	Bob	|25|	IT	|55000|	2021-03-22|
+|3	|Charlie|	35	|IT|	70000|	2019-07-10|
+|4|	David|	28|	Finance|	45000	|2022-02-01|
+
+IN: Selects employees who work in either HR or Finance.
+```sql
+SELECT * FROM employees WHERE department IN ('HR', 'Finance');
+```
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+|4|	David|	28|	Finance|	45000	|2022-02-01|
+|5	|Eva|	42|	HR|	80000	|2018-05-30|
+
+IS NULL: (No output as none of the employees have a NULL hire_date.)
+
+EXISTS: Selects employees if there are any earning more than $70,000.
+```sql
+SELECT * FROM employees WHERE EXISTS (SELECT * FROM employees WHERE salary > 70000);
+```
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+|2|	Bob	|25|	IT	|55000|	2021-03-22|
+|3	|Charlie|	35	|IT|	70000|	2019-07-10|
+|4|	David|	28|	Finance|	45000	|2022-02-01|
+|5	|Eva|	42|	HR|	80000	|2018-05-30|
+
+LIKE: 
+i) Starts with a specific character (A%)
+Selects employees whose names start with the letter 'A'.
+```sql
+SELECT * FROM employees WHERE name LIKE 'A%';
+```
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+
+ ii) Ends with a specific character (%e)
+ This condition finds all rows where the name ends with the letter 'e'.
+ ```sql
+ SELECT * FROM employees WHERE name LIKE '%e';
+```
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+|3	|Charlie|	35	|IT|	70000|	2019-07-10|
+
+iii) Contains a specific sequence of characters (%a%)
+This condition finds all rows where the name contains the letter 'a' anywhere in the name.
+```sql
+SELECT * FROM employees WHERE name LIKE '%a%';
+```
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+|3	|Charlie|	35	|IT|	70000|	2019-07-10|
+|4|	David|	28|	Finance|	45000	|2022-02-01|
+|5	|Eva|	42|	HR|	80000	|2018-05-30|
+
+iv) Specific length of characters (_ _ _ _ _)
+This condition finds all rows where the name is exactly five characters long.
+```sql
+SELECT * FROM employees WHERE name LIKE '_____';
+```
+
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+|5	|Eva|	42|	HR|	80000	|2018-05-30|
+
+v) Starts and ends with specific characters (A%e)
+This condition finds all rows where the name starts with 'A' and ends with 'e'.
+```sql
+SELECT * FROM employees WHERE name LIKE 'A%e';
+```
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+
+vi) Starts with a specific character and contains a specific character later (B%b)
+This condition finds all rows where the name starts with 'B' and contains the letter 'b' later.
+```sql
+SELECT * FROM employees WHERE name LIKE 'B%b';
+```
+
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|2|	Bob	|25|	IT	|55000|	2021-03-22|
+
+vii) Contains any single character in a specific position (_a%)
+This condition finds all rows where the second character of the name is 'a'.
+```sql
+SELECT * FROM employees WHERE name LIKE '_a%';
+```
+
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|4|	David|	28|	Finance|	45000	|2022-02-01|
+
+viii) Excludes a specific pattern (NOT LIKE 'A%')
+This condition finds all rows where the name does not start with 'A'.
+```sql
+SELECT * FROM employees WHERE name NOT LIKE 'A%';
+```
+
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|2|	Bob	|25|	IT	|55000|	2021-03-22|
+|3	|Charlie|	35	|IT|	70000|	2019-07-10|
+|4|	David|	28|	Finance|	45000	|2022-02-01|
+|5	|Eva|	42|	HR|	80000	|2018-05-30|
+
+ix) Contains a specific character set ([A-C]%)
+This condition finds all rows where the name starts with any letter from A to C.
+```sql
+SELECT * FROM employees WHERE name LIKE '[A-C]%';
+```
+
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|1	|Alice	|30|	HR	|60000	|2020-01-15|
+|2|	Bob	|25|	IT	|55000|	2021-03-22|
+|3	|Charlie|	35	|IT|	70000|	2019-07-10|
+
+x) Excludes a specific character set ([^A-C]%)
+This condition finds all rows where the name does not start with any letter from A to C.
+```sql
+SELECT * FROM employees WHERE name LIKE '[^A-C]%';
+```
+
+| **id** | **name** | **age** | **department** | **salary** | **hire_date** |
+|--------|-----------|---------|----------------|------------|---------------|
+|4|	David|	28|	Finance|	45000	|2022-02-01|
+|5	|Eva|	42|	HR|	80000	|2018-05-30|
