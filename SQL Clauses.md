@@ -17,14 +17,16 @@
 
 1. Employee Table
 |EmpID|	Name|	DepartmentID	|Salary|
+|-------|---------|--------------|--------|
 |1|	John|	10|	50000|
 |2	|Sarah|	20|	60000|
 |3	|Mike|	10	|55000|
 |4	|Jessica	|30	|70000|
 |5	|James	|NULL	|40000|
 
-2. Department Table
+3. Department Table
 |DepartmentID	|DepartmentName|
+|-------|---------|
 |10|	HR|
 |20	|IT|
 |30	|Finance|
@@ -41,6 +43,7 @@ GROUP BY DepartmentID;
 ```
 
 |DepartmentID|	TotalSalary|
+|-------|---------|
 |10|	105000|
 |20	|60000|
 |30	|70000|
@@ -58,6 +61,7 @@ HAVING SUM(Salary) > 100000;
 ```
 
 |DepartmentID|	TotalSalary|
+|-------|---------|
 |10|	105000|
 
 3. ORDER BY
@@ -71,6 +75,7 @@ ORDER BY Salary DESC;
 ```
 
 |Name	|Salary|
+|-------|---------|
 |Jessica|	70000|
 |Sarah	|60000|
 |Mike	|55000|
@@ -88,6 +93,7 @@ JOIN Department d ON e.DepartmentID = d.DepartmentID;
 ```
 
 |Name|	DepartmentName|
+|-------|---------|
 |John	|HR|
 |Sarah|	IT|
 |Mike	|HR|
@@ -104,6 +110,7 @@ INNER JOIN Department d ON e.DepartmentID = d.DepartmentID;
 ```
 
 |Name|	DepartmentName|
+|-------|---------|
 |John	|HR|
 |Sarah|	IT|
 |Mike	|HR|
@@ -119,7 +126,8 @@ FROM Employee e
 LEFT JOIN Department d ON e.DepartmentID = d.DepartmentID;
 ```
 
-|Name	DepartmentName
+|Name|	DepartmentName|
+|-------|---------|
 |John|	HR|
 |Sarah	|IT|
 |Mike	HR|
@@ -137,6 +145,7 @@ RIGHT JOIN Department d ON e.DepartmentID = d.DepartmentID;
 ```
 
 |Name|	DepartmentName|
+|-------|---------|
 |John|	HR|
 |Mike	|HR|
 |Sarah|	IT|
@@ -154,6 +163,7 @@ FULL JOIN Department d ON e.DepartmentID = d.DepartmentID;
 ```
 
 |Name|	DepartmentName|
+|-------|---------|
 |John|	HR|
 |Mike|	HR|
 |Sarah|	IT|
@@ -172,6 +182,7 @@ CROSS JOIN Department d;
 ```
 
 |Name|	DepartmentName|
+|-------|---------|
 |John	|HR|
 |John	|IT|
 |John	|Finance|
@@ -193,6 +204,7 @@ FROM Department;
 ```
 
 |EntityName|
+|-------|
 |John|
 |Sarah|
 |Mike|
@@ -216,6 +228,7 @@ FROM Department;
 ```
 
 |EntityName|
+|-------|
 |John|
 |Sarah|
 |Mike|
