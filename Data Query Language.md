@@ -1,4 +1,4 @@
-# Data Query Language (DQL) in Employee Database
+# Data Query Language (DQL)
 
 ## 1. Employees Table
 
