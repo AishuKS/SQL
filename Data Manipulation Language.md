@@ -25,6 +25,15 @@ INSERT INTO projects (project_id, project_name, employee_id)
 VALUES (201, 'Project Alpha', 101);
 ```
 
+# Employee Database Tables
+
+## 1. Employees Table
+
+| **employee_id** | **first_name** | **last_name** | **department_id** | **hire_date** | **salary** |
+|------------------|----------------|----------------|--------------------|----------------|------------|
+| 101              | John           | Doe            | 1                  | 2024-01-15     | 55000.00   |
+
+
 ### 2. UPDATE
 The `UPDATE` statement modifies existing records in a table.
 
