@@ -117,6 +117,7 @@ SELECT CONCAT('Employee: ', name) FROM employees;
 | Employee: Carol White   |
 | Employee: David Brown   |
 | Employee: Eve Davis     |
+
 Explanation: It adds "Employee: " before each employee's name.
 
 2. SUBSTRING():
@@ -130,6 +131,7 @@ SELECT SUBSTRING(name, 1, 3) FROM employees;
 | Car       |
 | Dav       |
 | Eve       |
+
 Explanation: Extracts the first 3 characters from each employee's name.
 
 3. UPPER():
@@ -143,6 +145,7 @@ SELECT UPPER(name) FROM employees;
 | CAROL WHITE      |
 | DAVID BROWN      |
 | EVE DAVIS        |
+
 Explanation: Converts all the names to uppercase letters.
 
 4. LOWER():
@@ -156,6 +159,7 @@ SELECT LOWER(name) FROM employees;
 | carol white       |
 | david brown       |
 | eve davis         |
+
 Explanation: Converts all the names to lowercase letters.
 
 ##DATA FUNCTIONS
@@ -166,6 +170,7 @@ SELECT NOW();
 | NOW()                |
 |----------------------|
 | 2024-10-07 12:00:00  |
+
 Explanation: Returns the current date and time when the query is run (in this case, "2024-10-07 12:00:00").
 
 2. DATEPART():
@@ -179,6 +184,7 @@ SELECT DATEPART(year, hire_date) FROM employees;
 | 2021                        |
 | 2018                        |
 | 2022                        |
+
 Explanation: Extracts the year each employee was hired.
 
 3. DATEDIFF():
@@ -192,4 +198,5 @@ SELECT DATEDIFF(day, hire_date, NOW()) FROM employees;
 | 818                               |
 | 1829                              |
 | 621                               |
+
 Explanation: Calculates the number of days since each employee was hired until today.
