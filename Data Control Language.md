@@ -6,8 +6,8 @@ It can be used to give permissions like SELECT, INSERT, UPDATE, DELETE, or ALL P
 
 ### Example: Granting Permissions
 
-```sql
 -- Grant SELECT permission on the employees table to a user
+```sql
 GRANT SELECT ON employees TO username;
 ```
 
@@ -26,13 +26,17 @@ Ensures that users no longer have access to certain operations on the database o
 
 ### Example: Revoking Permissions
 
-```sql
 -- Revoke SELECT permission on the employees table from a user
+```sql
 REVOKE SELECT ON employees FROM username;
+```
 
 -- Revoke INSERT permission on the projects table from a user
+```sql
 REVOKE INSERT ON projects FROM username;
+```
 
 -- Revoke ALL privileges on the departments table from a role
+```sql
 REVOKE ALL PRIVILEGES ON departments FROM role_name;
 ```
