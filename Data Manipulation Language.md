@@ -33,6 +33,18 @@ VALUES (201, 'Project Alpha', 101);
 |------------------|----------------|----------------|--------------------|----------------|------------|
 | 101              | John           | Doe            | 1                  | 2024-01-15     | 55000.00   |
 
+## 2. Departments Table
+
+| **department_id** | **department_name** |
+|--------------------|---------------------|
+| 1                  | HR Department       |
+
+## 3. Projects Table
+
+| **project_id** | **project_name** | **employee_id** |
+|-----------------|------------------|------------------|
+| 201             | Project Alpha    | 101              |
+
 
 ### 2. UPDATE
 The `UPDATE` statement modifies existing records in a table.
