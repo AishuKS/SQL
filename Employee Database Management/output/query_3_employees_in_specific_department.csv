@@ -1,0 +1,5 @@
+emp_id,first_name,last_name,dob,gender,hire_date,job_title,department_id,position_id,salary,status,department_id,department_name,manager_id
+5,Michael,Green,1980-09-12,Male,2009-02-10,"Sales Manager",3,4,85000.00,Active,3,Sales,3
+6,Anna,Jones,1988-12-15,Female,2014-11-05,"Sales Executive",3,5,60000.00,Active,3,Sales,3
+51,Michael,Green,1980-09-12,Male,2009-02-10,"Sales Manager",3,4,85000.00,Active,3,Sales,3
+52,Anna,Jones,1988-12-15,Female,2014-11-05,"Sales Executive",3,5,60000.00,Active,3,Sales,3

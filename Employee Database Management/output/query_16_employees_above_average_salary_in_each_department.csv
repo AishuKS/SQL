@@ -1,0 +1,45 @@
+emp_id,first_name,last_name,dob,gender,hire_date,job_title,department_id,position_id,salary,status,department_id,department_name,manager_id
+3,Robert,Brown,1982-06-10,Male,2007-01-10,"Software Engineer",2,3,90000.00,Active,2,Engineering,2
+4,Emily,White,1992-08-30,Female,2016-04-15,"Software Engineer",2,3,92000.00,Active,2,Engineering,2
+5,Michael,Green,1980-09-12,Male,2009-02-10,"Sales Manager",3,4,85000.00,Active,3,Sales,3
+7,David,Taylor,1975-05-01,Male,2005-09-20,"Marketing Specialist",4,6,70000.00,Active,4,Marketing,4
+9,Christopher,Lee,1983-07-22,Male,2011-03-29,"Finance Analyst",5,8,75000.00,Active,5,Finance,5
+10,Jessica,Garcia,1991-02-11,Female,2016-08-30,"Finance Manager",5,9,95000.00,Active,5,Finance,5
+13,Daniel,Wilson,1990-10-20,Male,2015-06-14,"IT Administrator",7,12,75000.00,Active,7,IT,7
+15,Matthew,Taylor,1993-11-02,Male,2017-02-20,"Research Scientist",8,14,95000.00,Active,8,"Research and Development",8
+16,Isabella,Anderson,1981-08-15,Female,2010-07-25,"Senior Research Scientist",8,15,115000.00,Active,8,"Research and Development",8
+17,Joshua,Thomas,1985-04-30,Male,2011-12-11,"Legal Counsel",9,16,120000.00,Active,9,Legal,9
+19,Jacob,Martinez,1989-07-27,Male,2015-11-21,"Operations Manager",10,18,95000.00,Active,10,Administration,10
+24,Amelia,Hall,1986-05-19,Female,2014-01-16,"Procurement Manager",12,23,75000.00,Active,12,"Public Relations",12
+26,Charlotte,Allen,1988-03-04,Female,2013-07-25,"Security Manager",13,25,72000.00,Active,13,Procurement,13
+29,Samuel,Lopez,1982-06-25,Male,2010-08-11,"Product Manager",15,28,92000.00,Active,15,Facilities,15
+31,Alexander,Harris,1983-12-20,Male,2011-04-03,"Quality Analyst",16,30,78000.00,Active,16,"Product Management",16
+32,Avery,Ramirez,1986-02-08,Female,2012-10-29,"Senior Quality Analyst",16,31,85000.00,Active,16,"Product Management",16
+35,Benjamin,Flores,1985-01-19,Male,2010-09-17,"Compliance Officer",18,34,80000.00,Active,18,Training,18
+37,David,Young,1980-11-12,Male,2009-12-03,"Project Manager",19,36,96000.00,Active,19,Compliance,19
+38,Sophia,Martinez,1992-08-01,Female,2017-01-28,"Assistant Project Manager",19,37,72000.00,Active,19,Compliance,19
+39,Liam,Wright,1991-06-22,Male,2018-05-17,"Data Analyst",20,38,75000.00,Active,20,"Project Management",20
+41,James,Harris,1984-03-08,Male,2013-11-07,"Logistics Manager",21,40,85000.00,Active,21,"Business Intelligence",21
+43,Noah,Lewis,1988-07-15,Male,2011-02-24,Consultant,22,42,90000.00,Active,22,Logistics,22
+49,Robert,Brown,1982-06-10,Male,2007-01-10,"Software Engineer",2,3,90000.00,Active,2,Engineering,2
+50,Emily,White,1992-08-30,Female,2016-04-15,"Software Engineer",2,3,92000.00,Active,2,Engineering,2
+51,Michael,Green,1980-09-12,Male,2009-02-10,"Sales Manager",3,4,85000.00,Active,3,Sales,3
+53,David,Taylor,1975-05-01,Male,2005-09-20,"Marketing Specialist",4,6,70000.00,Active,4,Marketing,4
+55,Christopher,Lee,1983-07-22,Male,2011-03-29,"Finance Analyst",5,8,75000.00,Active,5,Finance,5
+56,Jessica,Garcia,1991-02-11,Female,2016-08-30,"Finance Manager",5,9,95000.00,Active,5,Finance,5
+59,Daniel,Wilson,1990-10-20,Male,2015-06-14,"IT Administrator",7,12,75000.00,Active,7,IT,7
+61,Matthew,Taylor,1993-11-02,Male,2017-02-20,"Research Scientist",8,14,95000.00,Active,8,"Research and Development",8
+62,Isabella,Anderson,1981-08-15,Female,2010-07-25,"Senior Research Scientist",8,15,115000.00,Active,8,"Research and Development",8
+63,Joshua,Thomas,1985-04-30,Male,2011-12-11,"Legal Counsel",9,16,120000.00,Active,9,Legal,9
+65,Jacob,Martinez,1989-07-27,Male,2015-11-21,"Operations Manager",10,18,95000.00,Active,10,Administration,10
+70,Amelia,Hall,1986-05-19,Female,2014-01-16,"Procurement Manager",12,23,75000.00,Active,12,"Public Relations",12
+72,Charlotte,Allen,1988-03-04,Female,2013-07-25,"Security Manager",13,25,72000.00,Active,13,Procurement,13
+75,Samuel,Lopez,1982-06-25,Male,2010-08-11,"Product Manager",15,28,92000.00,Active,15,Facilities,15
+77,Alexander,Harris,1983-12-20,Male,2011-04-03,"Quality Analyst",16,30,78000.00,Active,16,"Product Management",16
+78,Avery,Ramirez,1986-02-08,Female,2012-10-29,"Senior Quality Analyst",16,31,85000.00,Active,16,"Product Management",16
+81,Benjamin,Flores,1985-01-19,Male,2010-09-17,"Compliance Officer",18,34,80000.00,Active,18,Training,18
+83,David,Young,1980-11-12,Male,2009-12-03,"Project Manager",19,36,96000.00,Active,19,Compliance,19
+84,Sophia,Martinez,1992-08-01,Female,2017-01-28,"Assistant Project Manager",19,37,72000.00,Active,19,Compliance,19
+85,Liam,Wright,1991-06-22,Male,2018-05-17,"Data Analyst",20,38,75000.00,Active,20,"Project Management",20
+87,James,Harris,1984-03-08,Male,2013-11-07,"Logistics Manager",21,40,85000.00,Active,21,"Business Intelligence",21
+89,Noah,Lewis,1988-07-15,Male,2011-02-24,Consultant,22,42,90000.00,Active,22,Logistics,22

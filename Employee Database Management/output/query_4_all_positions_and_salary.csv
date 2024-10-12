@@ -1,0 +1,101 @@
+position_id,position_name,min_salary,max_salary
+1,"HR Manager",50000.00,80000.00
+2,"Software Engineer",60000.00,100000.00
+3,"Sales Manager",55000.00,85000.00
+4,"Marketing Specialist",40000.00,70000.00
+5,"Finance Analyst",45000.00,75000.00
+6,"Customer Support Representative",30000.00,50000.00
+7,"IT Administrator",50000.00,90000.00
+8,"Research Scientist",70000.00,120000.00
+9,"Legal Counsel",65000.00,110000.00
+10,"Office Administrator",30000.00,50000.00
+11,"Operations Manager",60000.00,95000.00
+12,"Public Relations Specialist",45000.00,75000.00
+13,"Procurement Officer",40000.00,65000.00
+14,"Security Officer",35000.00,55000.00
+15,"Facilities Manager",45000.00,80000.00
+16,"Product Manager",70000.00,115000.00
+17,"Quality Assurance Analyst",50000.00,85000.00
+18,"Training Coordinator",40000.00,70000.00
+19,"Compliance Officer",50000.00,85000.00
+20,"Project Manager",65000.00,100000.00
+21,"Data Analyst",60000.00,95000.00
+22,"Logistics Coordinator",40000.00,70000.00
+23,Consultant,55000.00,95000.00
+24,"Graphic Designer",35000.00,65000.00
+25,"Strategy Analyst",55000.00,90000.00
+26,"Content Writer",35000.00,60000.00
+27,"Partnership Manager",60000.00,100000.00
+28,"Supply Chain Manager",55000.00,90000.00
+29,"Investor Relations Officer",50000.00,85000.00
+30,"Risk Manager",60000.00,100000.00
+31,"Internal Auditor",55000.00,95000.00
+32,"Legal Advisor",70000.00,120000.00
+33,"Ethics Officer",55000.00,90000.00
+34,"Corporate Communications Manager",60000.00,95000.00
+35,"Health and Safety Officer",45000.00,75000.00
+36,"Manufacturing Engineer",55000.00,90000.00
+37,"HR Development Specialist",40000.00,65000.00
+38,"Strategy Manager",65000.00,100000.00
+39,"Business Development Manager",60000.00,100000.00
+40,Accountant,45000.00,75000.00
+41,"Financial Planner",50000.00,85000.00
+42,Merchandiser,35000.00,60000.00
+43,"Innovation Specialist",60000.00,100000.00
+44,"Customer Experience Manager",50000.00,85000.00
+45,"Vendor Manager",45000.00,80000.00
+46,"Environmental Health Officer",50000.00,85000.00
+47,"Media Relations Manager",55000.00,90000.00
+48,"Customer Success Manager",60000.00,100000.00
+49,"E-Commerce Manager",55000.00,90000.00
+50,"Internal Communications Officer",45000.00,75000.00
+51,"HR Manager",50000.00,80000.00
+52,"Software Engineer",60000.00,100000.00
+53,"Sales Manager",55000.00,85000.00
+54,"Marketing Specialist",40000.00,70000.00
+55,"Finance Analyst",45000.00,75000.00
+56,"Customer Support Representative",30000.00,50000.00
+57,"IT Administrator",50000.00,90000.00
+58,"Research Scientist",70000.00,120000.00
+59,"Legal Counsel",65000.00,110000.00
+60,"Office Administrator",30000.00,50000.00
+61,"Operations Manager",60000.00,95000.00
+62,"Public Relations Specialist",45000.00,75000.00
+63,"Procurement Officer",40000.00,65000.00
+64,"Security Officer",35000.00,55000.00
+65,"Facilities Manager",45000.00,80000.00
+66,"Product Manager",70000.00,115000.00
+67,"Quality Assurance Analyst",50000.00,85000.00
+68,"Training Coordinator",40000.00,70000.00
+69,"Compliance Officer",50000.00,85000.00
+70,"Project Manager",65000.00,100000.00
+71,"Data Analyst",60000.00,95000.00
+72,"Logistics Coordinator",40000.00,70000.00
+73,Consultant,55000.00,95000.00
+74,"Graphic Designer",35000.00,65000.00
+75,"Strategy Analyst",55000.00,90000.00
+76,"Content Writer",35000.00,60000.00
+77,"Partnership Manager",60000.00,100000.00
+78,"Supply Chain Manager",55000.00,90000.00
+79,"Investor Relations Officer",50000.00,85000.00
+80,"Risk Manager",60000.00,100000.00
+81,"Internal Auditor",55000.00,95000.00
+82,"Legal Advisor",70000.00,120000.00
+83,"Ethics Officer",55000.00,90000.00
+84,"Corporate Communications Manager",60000.00,95000.00
+85,"Health and Safety Officer",45000.00,75000.00
+86,"Manufacturing Engineer",55000.00,90000.00
+87,"HR Development Specialist",40000.00,65000.00
+88,"Strategy Manager",65000.00,100000.00
+89,"Business Development Manager",60000.00,100000.00
+90,Accountant,45000.00,75000.00
+91,"Financial Planner",50000.00,85000.00
+92,Merchandiser,35000.00,60000.00
+93,"Innovation Specialist",60000.00,100000.00
+94,"Customer Experience Manager",50000.00,85000.00
+95,"Vendor Manager",45000.00,80000.00
+96,"Environmental Health Officer",50000.00,85000.00
+97,"Media Relations Manager",55000.00,90000.00
+98,"Customer Success Manager",60000.00,100000.00
+99,"E-Commerce Manager",55000.00,90000.00
+100,"Internal Communications Officer",45000.00,75000.00

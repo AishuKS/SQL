@@ -1,0 +1,25 @@
+emp_id,first_name,last_name,dob,gender,hire_date,job_title,department_id,position_id,salary,status
+1,John,Doe,1985-03-25,Male,2010-05-01,"HR Manager",1,1,65000.00,Active
+5,Michael,Green,1980-09-12,Male,2009-02-10,"Sales Manager",3,4,85000.00,Active
+10,Jessica,Garcia,1991-02-11,Female,2016-08-30,"Finance Manager",5,9,95000.00,Active
+12,Emma,Davis,1987-09-05,Female,2012-04-16,"Customer Support Manager",6,11,62000.00,Active
+19,Jacob,Martinez,1989-07-27,Male,2015-11-21,"Operations Manager",10,18,95000.00,Active
+24,Amelia,Hall,1986-05-19,Female,2014-01-16,"Procurement Manager",12,23,75000.00,Active
+26,Charlotte,Allen,1988-03-04,Female,2013-07-25,"Security Manager",13,25,72000.00,Active
+27,Henry,King,1979-11-17,Male,2008-06-18,"Facilities Manager",14,26,68000.00,Active
+29,Samuel,Lopez,1982-06-25,Male,2010-08-11,"Product Manager",15,28,92000.00,Active
+37,David,Young,1980-11-12,Male,2009-12-03,"Project Manager",19,36,96000.00,Active
+38,Sophia,Martinez,1992-08-01,Female,2017-01-28,"Assistant Project Manager",19,37,72000.00,Active
+41,James,Harris,1984-03-08,Male,2013-11-07,"Logistics Manager",21,40,85000.00,Active
+47,John,Doe,1985-03-25,Male,2010-05-01,"HR Manager",1,1,65000.00,Active
+51,Michael,Green,1980-09-12,Male,2009-02-10,"Sales Manager",3,4,85000.00,Active
+56,Jessica,Garcia,1991-02-11,Female,2016-08-30,"Finance Manager",5,9,95000.00,Active
+58,Emma,Davis,1987-09-05,Female,2012-04-16,"Customer Support Manager",6,11,62000.00,Active
+65,Jacob,Martinez,1989-07-27,Male,2015-11-21,"Operations Manager",10,18,95000.00,Active
+70,Amelia,Hall,1986-05-19,Female,2014-01-16,"Procurement Manager",12,23,75000.00,Active
+72,Charlotte,Allen,1988-03-04,Female,2013-07-25,"Security Manager",13,25,72000.00,Active
+73,Henry,King,1979-11-17,Male,2008-06-18,"Facilities Manager",14,26,68000.00,Active
+75,Samuel,Lopez,1982-06-25,Male,2010-08-11,"Product Manager",15,28,92000.00,Active
+83,David,Young,1980-11-12,Male,2009-12-03,"Project Manager",19,36,96000.00,Active
+84,Sophia,Martinez,1992-08-01,Female,2017-01-28,"Assistant Project Manager",19,37,72000.00,Active
+87,James,Harris,1984-03-08,Male,2013-11-07,"Logistics Manager",21,40,85000.00,Active

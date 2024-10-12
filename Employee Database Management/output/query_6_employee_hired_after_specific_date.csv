@@ -1,0 +1,71 @@
+emp_id,first_name,last_name,dob,gender,hire_date,job_title,department_id,position_id,salary,status
+2,Jane,Smith,1990-11-15,Female,2015-07-20,"HR Assistant",1,2,45000.00,Active
+4,Emily,White,1992-08-30,Female,2016-04-15,"Software Engineer",2,3,92000.00,Active
+6,Anna,Jones,1988-12-15,Female,2014-11-05,"Sales Executive",3,5,60000.00,Active
+8,Sarah,Martinez,1995-03-18,Female,2020-07-12,"Marketing Intern",4,7,35000.00,Active
+9,Christopher,Lee,1983-07-22,Male,2011-03-29,"Finance Analyst",5,8,75000.00,Active
+10,Jessica,Garcia,1991-02-11,Female,2016-08-30,"Finance Manager",5,9,95000.00,Active
+11,James,Miller,1986-06-14,Male,2013-01-21,"Customer Support Rep",6,10,40000.00,Active
+12,Emma,Davis,1987-09-05,Female,2012-04-16,"Customer Support Manager",6,11,62000.00,Active
+13,Daniel,Wilson,1990-10-20,Male,2015-06-14,"IT Administrator",7,12,75000.00,Active
+15,Matthew,Taylor,1993-11-02,Male,2017-02-20,"Research Scientist",8,14,95000.00,Active
+17,Joshua,Thomas,1985-04-30,Male,2011-12-11,"Legal Counsel",9,16,120000.00,Active
+18,Olivia,Martin,1994-05-22,Female,2019-09-04,Paralegal,9,17,50000.00,Active
+19,Jacob,Martinez,1989-07-27,Male,2015-11-21,"Operations Manager",10,18,95000.00,Active
+20,Mia,Rodriguez,1996-06-07,Female,2021-02-15,"Operations Coordinator",10,19,52000.00,Active
+21,Aiden,Clark,1984-11-21,Male,2012-10-13,"Public Relations Specialist",11,20,68000.00,Active
+22,Chloe,Lewis,1995-01-30,Female,2018-06-24,"PR Assistant",11,21,42000.00,Active
+24,Amelia,Hall,1986-05-19,Female,2014-01-16,"Procurement Manager",12,23,75000.00,Active
+25,Lucas,Young,1989-09-09,Male,2016-03-12,"Security Officer",13,24,48000.00,Active
+26,Charlotte,Allen,1988-03-04,Female,2013-07-25,"Security Manager",13,25,72000.00,Active
+28,Ella,Scott,1990-04-30,Female,2015-01-22,"Facilities Assistant",14,27,42000.00,Active
+30,Grace,White,1991-07-14,Female,2017-09-08,"Product Coordinator",15,29,62000.00,Active
+31,Alexander,Harris,1983-12-20,Male,2011-04-03,"Quality Analyst",16,30,78000.00,Active
+32,Avery,Ramirez,1986-02-08,Female,2012-10-29,"Senior Quality Analyst",16,31,85000.00,Active
+34,Scarlett,Carter,1989-10-31,Female,2015-05-04,"Training Specialist",17,33,48000.00,Active
+35,Benjamin,Flores,1985-01-19,Male,2010-09-17,"Compliance Officer",18,34,80000.00,Active
+36,Emma,Ward,1993-03-25,Female,2016-02-15,"Compliance Assistant",18,35,50000.00,Active
+38,Sophia,Martinez,1992-08-01,Female,2017-01-28,"Assistant Project Manager",19,37,72000.00,Active
+39,Liam,Wright,1991-06-22,Male,2018-05-17,"Data Analyst",20,38,75000.00,Active
+40,Sophia,Hill,1994-12-09,Female,2019-03-11,"Junior Data Analyst",20,39,55000.00,Active
+41,James,Harris,1984-03-08,Male,2013-11-07,"Logistics Manager",21,40,85000.00,Active
+42,Mia,Clark,1995-10-18,Female,2020-06-20,"Logistics Coordinator",21,41,62000.00,Active
+43,Noah,Lewis,1988-07-15,Male,2011-02-24,Consultant,22,42,90000.00,Active
+44,Amelia,Walker,1991-04-02,Female,2016-04-10,"Junior Consultant",22,43,60000.00,Active
+45,Lucas,Johnson,1983-08-27,Male,2010-10-13,"Graphic Designer",23,44,65000.00,Active
+46,Isabella,Lopez,1995-05-11,Female,2019-02-16,"Junior Graphic Designer",23,45,45000.00,Active
+48,Jane,Smith,1990-11-15,Female,2015-07-20,"HR Assistant",1,2,45000.00,Active
+50,Emily,White,1992-08-30,Female,2016-04-15,"Software Engineer",2,3,92000.00,Active
+52,Anna,Jones,1988-12-15,Female,2014-11-05,"Sales Executive",3,5,60000.00,Active
+54,Sarah,Martinez,1995-03-18,Female,2020-07-12,"Marketing Intern",4,7,35000.00,Active
+55,Christopher,Lee,1983-07-22,Male,2011-03-29,"Finance Analyst",5,8,75000.00,Active
+56,Jessica,Garcia,1991-02-11,Female,2016-08-30,"Finance Manager",5,9,95000.00,Active
+57,James,Miller,1986-06-14,Male,2013-01-21,"Customer Support Rep",6,10,40000.00,Active
+58,Emma,Davis,1987-09-05,Female,2012-04-16,"Customer Support Manager",6,11,62000.00,Active
+59,Daniel,Wilson,1990-10-20,Male,2015-06-14,"IT Administrator",7,12,75000.00,Active
+61,Matthew,Taylor,1993-11-02,Male,2017-02-20,"Research Scientist",8,14,95000.00,Active
+63,Joshua,Thomas,1985-04-30,Male,2011-12-11,"Legal Counsel",9,16,120000.00,Active
+64,Olivia,Martin,1994-05-22,Female,2019-09-04,Paralegal,9,17,50000.00,Active
+65,Jacob,Martinez,1989-07-27,Male,2015-11-21,"Operations Manager",10,18,95000.00,Active
+66,Mia,Rodriguez,1996-06-07,Female,2021-02-15,"Operations Coordinator",10,19,52000.00,Active
+67,Aiden,Clark,1984-11-21,Male,2012-10-13,"Public Relations Specialist",11,20,68000.00,Active
+68,Chloe,Lewis,1995-01-30,Female,2018-06-24,"PR Assistant",11,21,42000.00,Active
+70,Amelia,Hall,1986-05-19,Female,2014-01-16,"Procurement Manager",12,23,75000.00,Active
+71,Lucas,Young,1989-09-09,Male,2016-03-12,"Security Officer",13,24,48000.00,Active
+72,Charlotte,Allen,1988-03-04,Female,2013-07-25,"Security Manager",13,25,72000.00,Active
+74,Ella,Scott,1990-04-30,Female,2015-01-22,"Facilities Assistant",14,27,42000.00,Active
+76,Grace,White,1991-07-14,Female,2017-09-08,"Product Coordinator",15,29,62000.00,Active
+77,Alexander,Harris,1983-12-20,Male,2011-04-03,"Quality Analyst",16,30,78000.00,Active
+78,Avery,Ramirez,1986-02-08,Female,2012-10-29,"Senior Quality Analyst",16,31,85000.00,Active
+80,Scarlett,Carter,1989-10-31,Female,2015-05-04,"Training Specialist",17,33,48000.00,Active
+81,Benjamin,Flores,1985-01-19,Male,2010-09-17,"Compliance Officer",18,34,80000.00,Active
+82,Emma,Ward,1993-03-25,Female,2016-02-15,"Compliance Assistant",18,35,50000.00,Active
+84,Sophia,Martinez,1992-08-01,Female,2017-01-28,"Assistant Project Manager",19,37,72000.00,Active
+85,Liam,Wright,1991-06-22,Male,2018-05-17,"Data Analyst",20,38,75000.00,Active
+86,Sophia,Hill,1994-12-09,Female,2019-03-11,"Junior Data Analyst",20,39,55000.00,Active
+87,James,Harris,1984-03-08,Male,2013-11-07,"Logistics Manager",21,40,85000.00,Active
+88,Mia,Clark,1995-10-18,Female,2020-06-20,"Logistics Coordinator",21,41,62000.00,Active
+89,Noah,Lewis,1988-07-15,Male,2011-02-24,Consultant,22,42,90000.00,Active
+90,Amelia,Walker,1991-04-02,Female,2016-04-10,"Junior Consultant",22,43,60000.00,Active
+91,Lucas,Johnson,1983-08-27,Male,2010-10-13,"Graphic Designer",23,44,65000.00,Active
+92,Isabella,Lopez,1995-05-11,Female,2019-02-16,"Junior Graphic Designer",23,45,45000.00,Active

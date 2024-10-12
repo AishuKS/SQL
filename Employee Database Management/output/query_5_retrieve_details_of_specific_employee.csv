@@ -1,0 +1,2 @@
+emp_id,first_name,last_name,dob,gender,hire_date,job_title,department_id,position_id,salary,status
+1,John,Doe,1985-03-25,Male,2010-05-01,"HR Manager",1,1,65000.00,Active

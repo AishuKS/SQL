@@ -1,0 +1,3 @@
+emp_id,first_name,last_name,dob,gender,hire_date,job_title,department_id,position_id,salary,status,position_id,position_name,min_salary,max_salary
+2,Jane,Smith,1990-11-15,Female,2015-07-20,"HR Assistant",1,2,45000.00,Active,2,"Software Engineer",60000.00,100000.00
+48,Jane,Smith,1990-11-15,Female,2015-07-20,"HR Assistant",1,2,45000.00,Active,2,"Software Engineer",60000.00,100000.00

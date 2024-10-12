@@ -1,0 +1,35 @@
+emp_id,first_name,last_name,dob,gender,hire_date,job_title,department_id,position_id,salary,status
+1,John,Doe,1985-03-25,Male,2010-05-01,"HR Manager",1,1,65000.00,Active
+6,Anna,Jones,1988-12-15,Female,2014-11-05,"Sales Executive",3,5,60000.00,Active
+7,David,Taylor,1975-05-01,Male,2005-09-20,"Marketing Specialist",4,6,70000.00,Active
+12,Emma,Davis,1987-09-05,Female,2012-04-16,"Customer Support Manager",6,11,62000.00,Active
+14,Sophia,Moore,1982-03-09,Female,2008-12-01,"IT Support Specialist",7,13,55000.00,Active
+18,Olivia,Martin,1994-05-22,Female,2019-09-04,Paralegal,9,17,50000.00,Active
+20,Mia,Rodriguez,1996-06-07,Female,2021-02-15,"Operations Coordinator",10,19,52000.00,Active
+21,Aiden,Clark,1984-11-21,Male,2012-10-13,"Public Relations Specialist",11,20,68000.00,Active
+23,Ethan,Walker,1981-02-14,Male,2009-11-01,"Procurement Officer",12,22,55000.00,Active
+27,Henry,King,1979-11-17,Male,2008-06-18,"Facilities Manager",14,26,68000.00,Active
+30,Grace,White,1991-07-14,Female,2017-09-08,"Product Coordinator",15,29,62000.00,Active
+33,William,Nelson,1977-08-22,Male,2005-09-16,"Training Coordinator",17,32,62000.00,Active
+36,Emma,Ward,1993-03-25,Female,2016-02-15,"Compliance Assistant",18,35,50000.00,Active
+40,Sophia,Hill,1994-12-09,Female,2019-03-11,"Junior Data Analyst",20,39,55000.00,Active
+42,Mia,Clark,1995-10-18,Female,2020-06-20,"Logistics Coordinator",21,41,62000.00,Active
+44,Amelia,Walker,1991-04-02,Female,2016-04-10,"Junior Consultant",22,43,60000.00,Active
+45,Lucas,Johnson,1983-08-27,Male,2010-10-13,"Graphic Designer",23,44,65000.00,Active
+47,John,Doe,1985-03-25,Male,2010-05-01,"HR Manager",1,1,65000.00,Active
+52,Anna,Jones,1988-12-15,Female,2014-11-05,"Sales Executive",3,5,60000.00,Active
+53,David,Taylor,1975-05-01,Male,2005-09-20,"Marketing Specialist",4,6,70000.00,Active
+58,Emma,Davis,1987-09-05,Female,2012-04-16,"Customer Support Manager",6,11,62000.00,Active
+60,Sophia,Moore,1982-03-09,Female,2008-12-01,"IT Support Specialist",7,13,55000.00,Active
+64,Olivia,Martin,1994-05-22,Female,2019-09-04,Paralegal,9,17,50000.00,Active
+66,Mia,Rodriguez,1996-06-07,Female,2021-02-15,"Operations Coordinator",10,19,52000.00,Active
+67,Aiden,Clark,1984-11-21,Male,2012-10-13,"Public Relations Specialist",11,20,68000.00,Active
+69,Ethan,Walker,1981-02-14,Male,2009-11-01,"Procurement Officer",12,22,55000.00,Active
+73,Henry,King,1979-11-17,Male,2008-06-18,"Facilities Manager",14,26,68000.00,Active
+76,Grace,White,1991-07-14,Female,2017-09-08,"Product Coordinator",15,29,62000.00,Active
+79,William,Nelson,1977-08-22,Male,2005-09-16,"Training Coordinator",17,32,62000.00,Active
+82,Emma,Ward,1993-03-25,Female,2016-02-15,"Compliance Assistant",18,35,50000.00,Active
+86,Sophia,Hill,1994-12-09,Female,2019-03-11,"Junior Data Analyst",20,39,55000.00,Active
+88,Mia,Clark,1995-10-18,Female,2020-06-20,"Logistics Coordinator",21,41,62000.00,Active
+90,Amelia,Walker,1991-04-02,Female,2016-04-10,"Junior Consultant",22,43,60000.00,Active
+91,Lucas,Johnson,1983-08-27,Male,2010-10-13,"Graphic Designer",23,44,65000.00,Active
