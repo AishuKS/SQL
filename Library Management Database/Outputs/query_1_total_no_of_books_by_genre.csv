@@ -1,0 +1,21 @@
+genre,COUNT(*)
+Dystopian,5
+Modernism,2
+Fantasy,3
+Mystery,2
+"Literary Fiction",9
+Romance,1
+Adventure,3
+"Historical Fiction",8
+"Magical Realism",4
+"Philosophical Fiction",1
+Sci-Fi,1
+"Gothic Fiction",2
+Poetry,1
+Realism,1
+"Existential Fiction",1
+Satire,1
+"Contemporary Fiction",2
+Horror,1
+"Epistolary Fiction",1
+Western,1
