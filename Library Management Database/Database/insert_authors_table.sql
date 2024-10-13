@@ -1,0 +1,18 @@
+INSERT INTO authors (name, birth_year) VALUES
+('George Orwell', 1903), ('Virginia Woolf', 1882), ('J.K. Rowling', 1965),
+('Agatha Christie', 1890), ('J.R.R. Tolkien', 1892), ('Ernest Hemingway', 1899),
+('Jane Austen', 1775), ('F. Scott Fitzgerald', 1896), ('Mark Twain', 1835),
+('Harper Lee', 1926), ('Charles Dickens', 1812), ('Leo Tolstoy', 1828),
+('Gabriel Garcia Marquez', 1927), ('Fyodor Dostoevsky', 1821), ('William Faulkner', 1897),
+('H.G. Wells', 1866), ('George Eliot', 1819), ('Oscar Wilde', 1854),
+('Edgar Allan Poe', 1809), ('Jack London', 1876), ('Toni Morrison', 1931),
+('John Steinbeck', 1902), ('Franz Kafka', 1883), ('James Joyce', 1882),
+('Aldous Huxley', 1894), ('Herman Melville', 1819), ('Ralph Ellison', 1914),
+('Kurt Vonnegut', 1922), ('Margaret Atwood', 1939), ('Philip Roth', 1933),
+('Sylvia Plath', 1932), ('Arthur Conan Doyle', 1859), ('E.M. Forster', 1879),
+('Ray Bradbury', 1920), ('Emily Bronte', 1818), ('Zadie Smith', 1975),
+('Kazuo Ishiguro', 1954), ('Ian McEwan', 1948), ('Salman Rushdie', 1947),
+('Stephen King', 1947), ('Neil Gaiman', 1960), ('Isabel Allende', 1942),
+('Alice Walker', 1944), ('Michael Ondaatje', 1943), ('Cormac McCarthy', 1933),
+('Orhan Pamuk', 1952), ('Jhumpa Lahiri', 1967), ('Chimamanda Ngozi Adichie', 1977),
+('Haruki Murakami', 1949), ('Muriel Spark', 1918), ('Maya Angelou', 1928);
